@@ -1,0 +1,45 @@
+ .table-mesas {
+  float: left;
+  width: 95.8%;
+}
+
+.table-mesas tr td {
+  padding: 15px;
+}
+
+.butt-mesas {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  text-align: center;
+  text-shadow: 1px 1px 15px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 30px 40px;
+  background: #88dd77;
+  border: solid #000000 1px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.butt-mesas:hover {
+  background: #9ae288;
+  text-shadow: 1px 1px 15px #666666;
+  text-decoration: none;
+}
+
+h3 {
+    padding: 50px 0;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+}
